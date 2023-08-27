@@ -1,0 +1,115 @@
+/* Write your CSS code here. */
+.appContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+}
+
+.feedbackCard {
+  background-color: #ffffff;
+  width: 80%;
+  border-radius: 12px;
+  max-width: 606px;
+  padding: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .feedbackCard {
+    padding: 32px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .feedbackCard {
+    padding: 64px;
+  }
+}
+
+.feedbackQuestionContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedbackQuestion {
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 992px) {
+  .feedbackQuestion {
+    font-size: 32px;
+  }
+}
+
+.emojisList {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-top: 32px;
+  padding: 0px;
+}
+
+.emojiButton {
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+.emoji {
+  width: 45px;
+  height: 45px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.emojiName {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .emojiName {
+    font-size: 12px;
+  }
+}
+
+.thankyouContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loveEmoji {
+  width: 60px;
+  height: 54px;
+}
+
+.thankyouText {
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.description {
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 300;
+}
